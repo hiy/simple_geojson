@@ -1,0 +1,42 @@
+PATH
+  remote: .
+  specs:
+    simple_geojson (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.2)
+    minitest (5.16.3)
+    parallel (1.21.0)
+    parser (3.0.2.0)
+      ast (~> 2.4.1)
+    rainbow (3.0.0)
+    rake (13.0.6)
+    regexp_parser (2.1.1)
+    rexml (3.2.4)
+    rubocop (1.22.3)
+      parallel (~> 1.10)
+      parser (>= 3.0.0.0)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml
+      rubocop-ast (>= 1.12.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 3.0)
+    rubocop-ast (1.13.0)
+      parser (>= 3.0.1.1)
+    ruby-progressbar (1.10.1)
+    unicode-display_width (2.0.0)
+
+PLATFORMS
+  x86_64-darwin-19
+
+DEPENDENCIES
+  minitest (~> 5.0)
+  rake (~> 13.0)
+  rubocop (~> 1.21)
+  simple_geojson!
+
+BUNDLED WITH
+   2.4.1
